@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $blue;
     text-decoration: none;
 
     &:visited {
@@ -175,7 +175,6 @@ pre {
  * Clearfix
  */
 %clearfix {
-
     &:after {
         content: "";
         display: table;
@@ -189,7 +188,6 @@ pre {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
@@ -204,4 +202,7 @@ pre {
 
 strong {
   font-weight: 700;
+}
+abbr {
+  border-bottom: 1px dotted black;
 }

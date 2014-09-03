@@ -8,7 +8,7 @@
   padding: 0 0 10px 0;
 }
 
-.logo {
+.logo, a.logo.logo {
   color: $green;
   background: $yellow;
   font-weight: 900;
@@ -57,7 +57,7 @@ a.site-title {
   text-align: center;
   color: #FFF;
   font-weight: 500;
-  text-shadow: 1px 1px 1px #5C5C5C;
+  text-shadow: 1px 1px 2px #000;
   font-size: 40px;
   margin-top: 30%;
   @include media-query($on-tablet) {
@@ -85,23 +85,54 @@ a.site-title {
     background: #F7F7F7;
 }
 
+.site-footer  div {
+  clear: both
+}
+
+.site-footer a {
+  color: #333;
+}
+
 .footer-heading {
-  font-size: 18px;
-  margin-bottom: $spacing-unit / 2;
-  display: inline-block;
+  margin: 0;
+  a {
+    font-size: 18px;
+    margin: 0;
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 1px #807F7F;
+    &, &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .site-footer .email {
-  color: $green;
   text-decoration: underline;
   font-size: 14px;
   font-weight: 900;
+  float: left;
 }
 
 .site-footer .text {
   margin-top: $spacing-unit ;
   font-size: 15px;
   font-weight: 300;
+  clear: both;
+  overflow: auto;
+}
+
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+  li {
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    float: left;
+    font-weight: 700;
+  }
 }
 
 /**
