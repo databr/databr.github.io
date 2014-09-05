@@ -7,5 +7,3 @@ baseurl: ""
 url: "http://databr.io"
 
 markdown: kramdown
-
-twitter: databr_api
