@@ -22,6 +22,9 @@ body {
     background-color: $background-color;
 }
 
+body, * {
+  @include box-sizing(border-box);
+}
 
 
 /**
