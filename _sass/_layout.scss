@@ -1,14 +1,10 @@
 /**
  * Site header
  */
-.site-header {
-  min-height: 45px;
-  position: relative;
-  overflow: auto;
-  padding: 0 0 10px 0;
-}
 
-.logo, a.logo.logo {
+@import "header";
+
+.logo, a.logo.logo, html body a.logo.logo {
   color: $green;
   background: $yellow;
   font-weight: 900;
@@ -17,27 +13,9 @@
   }
 }
 
-a.site-title {
-  display: block;
-  width: 140px;
-  text-align: center;
-  margin: 25px auto;
+html body header .logo.logo.logo {
   font-size: 35px;
-  margin-bottom: 0;
-  color: $green;
-  background: $yellow;
-  padding: 0 15px;
-  border-radius: 2px;
-  box-shadow: 0 0 7px #333;
-
-  &:visited, &:hover {
-    text-decoration: none;
-  }
-
-  @include media-query($on-tablet) {
-    font-size: 50px;
-    width: 170px;
-  }
+  line-height: 1.5;
 }
 
 /**
