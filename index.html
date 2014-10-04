@@ -13,3 +13,36 @@ layout: home
     </h3>
   </div>
 </div>
+
+<div class="sources">
+  <div class="wrapper">
+    <h4>Fontes de Dados</h4>
+    <ul>
+      {% for source in site.sources %}
+      <li>
+      <a href="{{ source.link }}" rel="nofollow">
+        <span class="image"><img alt="" src="{{ source.image }}"/></span>
+        <span>{{ source.name }}</span>
+      </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+<div class="partners">
+  <div class="wrapper">
+    <h4>Parceiros</h4>
+    <ul>
+      {% for partner in site.partners %}
+      <li>
+      <a href="{{ partner.link }}" rel="nofollow">
+        <span class="image"><img alt="" src="{{ partner.image }}"/></span>
+        <span>{{ partner.name }}</span>
+      </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

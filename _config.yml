@@ -7,3 +7,29 @@ baseurl: ""
 url: "http://databr.io"
 
 markdown: kramdown
+
+sources:
+  -
+    name: "Senado Federal"
+    image: "images/senado.jpg"
+    link: "http://senado.gov.br"
+  -
+    name: "Câmara dos Deputados"
+    image: "images/camaradodeputados.jpg"
+    link: "http://www2.camara.leg.br"
+  -
+    name: "Transparência Brasil"
+    image: "images/transparenciabrasil.png"
+    link: "http://transparencia.org.br"
+
+
+partners:
+  -
+    name: "StatusPage.io"
+    image: "images/statuspage.png"
+    link: "http://StatusPage.io"
+  -
+    name: "Transparência SJC"
+    image: "images/transparenciasjc.jpg"
+    link: "http://transparenciasjc.org"
+
