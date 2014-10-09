@@ -1,27 +1,51 @@
 <footer class="site-footer">
-<div class="wrapper">
-  <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-  <ul>
-    <li><a href="http://explore.databr.io">Explore</a></li>
-    <li><a href="http://databr.io/documentation">Documentação</a></li>
-    <li><a href="http://github.com/databr">Github</a></li>
-    <li><a href="http://twitter.com/databr_api">@databr_api</a></li>
-  </ul>
-  <div></div>
-  <p class="text">{{ site.description }}</p>
+  <div class="wrapper">
+    <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <ul>
+      <li><a href="http://explore.databr.io">Explore</a></li>
+      <li><a href="http://databr.io/documentation">Documentação</a></li>
+      <li><a href="http://github.com/databr">Github</a></li>
+      <li><a href="http://twitter.com/databr_api">@databr_api</a></li>
+    </ul>
+    <div></div>
+    <p class="text">{{ site.description }}</p>
 
-  <h2 class="footer-heading">
-    <a href="/" class="logo" ><span>data</span><span>br</span></a>
-  </h2>
-</div>
+
+    <div style="width: 35%; float: right">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+#mc_embed_signup{ clear:left; }
+#mc_embed_signup input.email { width: 100% }
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+      <form action="//databr.us9.list-manage.com/subscribe/post?u=c87d787f39a2b6a05c226340e&amp;id=8522d5f09f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL">Fique por dentro do databr.io</label>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_c87d787f39a2b6a05c226340e_8522d5f09f" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+      </form>
+    </div>
+    <!--End mc_embed_signup-->
+    </div>
+
+    <h2 class="footer-heading">
+      <a href="/" class="logo" ><span>data</span><span>br</span></a>
+    </h2>
+  </div>
 </footer>
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-55572831-1', 'auto');
-  ga('send', 'pageview');
+ga('create', 'UA-55572831-1', 'auto');
+ga('send', 'pageview');
 </script>
