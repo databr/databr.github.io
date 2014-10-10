@@ -212,10 +212,11 @@ html body header .logo.logo.logo {
   }
   img {
     margin: 0 auto;
-    width: 125px;
+    max-width: 125px;
     border-radius: 5px;
     position: relative;
     top: 50%;
+    max-height: 125px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
@@ -229,6 +230,7 @@ html body header .logo.logo.logo {
     border-radius: 5px;
     border: 1px solid $grey-color-light;
     transform-style: preserve-3d;
+    background: #FFF;
   }
 }
 

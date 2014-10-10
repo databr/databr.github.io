@@ -21,6 +21,14 @@ sources:
     name: "Transparência Brasil"
     image: "images/transparenciabrasil.png"
     link: "http://transparencia.org.br"
+  -
+    name: "CPTM"
+    image: "images/cptm.png"
+    link: "http://cptm.sp.gov.br"
+  -
+    name: "Metro (SP)"
+    image: "images/metrosp.gif"
+    link: "http://www.metro.sp.gov.br"
 
 
 partners:
