@@ -38,8 +38,10 @@ window.DataBRToolbar = {
     var nav = $("<div />").addClass("nav");
     var menu = $("<ul />").attr("id", "navigation-menu");
 
-     DataBRToolbar.addItem(menu, "http://databr.io/help", "Ajude!");
-     DataBRToolbar.addItem(menu, "http://databr.io/about", "Sobre");
+    DataBRToolbar.addItem(menu, "http://console.databr.io/", "Console");
+    DataBRToolbar.addItem(menu, "http://bots.databr.io/help", "Bots");
+    DataBRToolbar.addItem(menu, "http://databr.io/help", "Ajude!");
+    DataBRToolbar.addItem(menu, "http://databr.io/about", "Sobre");
 
     nav.append(menu);
 
