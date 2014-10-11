@@ -1,0 +1,25 @@
+---
+---
+
+$base-font-family: Roboto, Helvetica, Arial, sans-serif
+$text-color:       #111
+$on-laptop:        1224px
+$on-tablet:        768px
+$blue:            #3E4095
+$green:           #00A859
+$yellow:          #FFCC29
+
+=clearfix
+    &:after
+        content: ""
+        display: table
+        clear: both
+
+
+=media-query($device)
+    @media screen and (min-width: $device)
+        @content
+
+
+@import "bourbon/bourbon", "header"
+

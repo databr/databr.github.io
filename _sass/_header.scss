@@ -6,6 +6,20 @@ $sans-serif: $base-font-family;
 $base-border-radius: 3px;
 
 header.navigation {
+  .logo, a.logo.logo  {
+    color: $green;
+    background: $yellow;
+    font-weight: 900;
+    span:last-child{
+      color: $blue;
+    }
+  }
+
+  .logo.logo.logo{
+    font-size: 35px;
+    line-height: 1.5;
+  }
+
   $navigation-padding: 1em;
   $navigation-background: $yellow;
   $navigation-color: transparentize(#000, 0.4);
@@ -23,6 +37,14 @@ header.navigation {
   z-index: 999;
   font-weight: 500;
 
+  a {
+    font-family: $sans-serif;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   .navigation-wrapper {
     @include clearfix;
     max-width: 1000px;
@@ -36,6 +58,9 @@ header.navigation {
     max-height: $navigation-height;
     padding-left: $navigation-padding;
     padding-right: 2em;
+    span {
+      font-weight: 900;
+    }
   }
 
   // Mobile view
