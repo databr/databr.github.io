@@ -23,7 +23,7 @@ window.DataBRToolbar = {
       $(".nav .more").removeClass("active-nav-item");
     });
   },
-  generate: function(){
+  generate: function(_parent){
     var header = $("<header></header>").addClass("navigation");
     var wrapper = $("<div></div>").addClass("navigation-wrapper");
     var logo = $("<a />").attr("href", "http://databr.io").
