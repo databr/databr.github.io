@@ -1,8 +1,7 @@
 databr.github.io
 ================
 
-## [Trello com Tarefas](https://trello.com/b/3WLlqXpX/databr)
-
+Join us on IRC at #databr to chat with other databr maintainers! ([web access](http://webchat.freenode.net/?channels=databr))
 
 DataBR website
 
