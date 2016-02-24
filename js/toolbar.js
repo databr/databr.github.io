@@ -40,7 +40,7 @@ window.DataBRToolbar = {
 
     DataBRToolbar.addItem(menu, "http://console.databr.io/", "Console");
     DataBRToolbar.addItem(menu, "http://status.databr.io/", "Status");
-    DataBRToolbar.addItem(menu, "http://bots.databr.io/", "Bots");
+    // DataBRToolbar.addItem(menu, "http://bots.databr.io/", "Bots");
     DataBRToolbar.addItem(menu, "http://databr.io/help", "Ajude!");
     DataBRToolbar.addItem(menu, "http://databr.io/about", "Sobre");
 
