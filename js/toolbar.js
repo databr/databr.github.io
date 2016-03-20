@@ -38,7 +38,7 @@ window.DataBRToolbar = {
     var nav = $("<div />").addClass("nav");
     var menu = $("<ul />").attr("id", "navigation-menu");
 
-    DataBRToolbar.addItem(menu, "http://console.databr.io/", "Console");
+    DataBRToolbar.addItem(menu, "http://console.databr.io/", "Teste a API!");
     DataBRToolbar.addItem(menu, "http://status.databr.io/", "Status");
     // DataBRToolbar.addItem(menu, "http://bots.databr.io/", "Bots");
     DataBRToolbar.addItem(menu, "http://databr.io/help", "Ajude!");
