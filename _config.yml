@@ -2,7 +2,7 @@
 title: DataBR
 email: contato@databr.io
 description: >
-  DataBR é um conjunto de <abbr title="em português: Interface de Programação de Aplicações">API's</abbr> que possibilita desenvolvedores, jornalistas, analistas e demais interessados, trabalhar com dados governamentais brasileiros. Acreditamos que este esforço em dispôr os dados de maneira aberta, possibilita a criação de inovadoras soluções para um país melhor, criando mais engajamento entre a população e os representantes do governo. 
+  DataBR é um conjunto de <abbr title="em português: Interface de Programação de Aplicações">API's</abbr> que possibilita desenvolvedores, jornalistas, analistas e demais interessados, trabalhar com dados governamentais brasileiros. Acreditamos que este esforço em dispôr os dados de maneira aberta, possibilita a criação de inovadoras soluções para um país melhor, criando mais engajamento entre a população e os representantes do governo.
 baseurl: ""
 url: "http://databr.io"
 
@@ -41,3 +41,7 @@ partners:
     image: "images/transparenciasjc.jpg"
     link: "http://transparenciasjc.github.io/"
 
+cases:
+  -
+    name: "Exemplo: Situação Linhas do Metrô/CPTM"
+    link: "/examples/status-metro-cptm"

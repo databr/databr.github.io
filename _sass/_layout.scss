@@ -236,7 +236,7 @@ html body header .logo.logo.logo {
 }
 
 
-.sources, .partners {
+.sources, .partners, .cases {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   h4 {
@@ -280,13 +280,14 @@ html body header .logo.logo.logo {
   }
 }
 
-.sources {
+.sources, .cases {
   background: lighten($blue, 55%);
 }
 
 .button.request {
   margin: 0 auto;
   margin-bottom: 30px;
+  margin-top: 20px;
   display: block;
   padding: 15px 50px;
   background: $blue;

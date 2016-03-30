@@ -5,14 +5,32 @@ layout: home
 <div class="home">
   <div class="wrapper">
     <h3>
-      Estamos começando e precisamos de pessoas interessadas em ajudar,
+      Nossa missão é <b>facilitar o acesso aos dados</b>, ajudando pessoas a criar
+      diferentes formas de ver nosso cotidiano, seja com graficos, aplicativos,
+      relatórios, etc. Precisamos de pessoas interessadas em ajudar, e
       qualquer ajuda é bem-vinda, não importa se você é um
       <strong>desenvolvedor</strong>, <strong>jornalista</strong>,
       <strong>advogado</strong>, <strong>curioso</strong> ou <strong>representante de uma empresa.</strong><br />
-      Mande e-mail para <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      Qualquer duvida mande e-mail para <a href="mailto:{{ site.email }}">{{ site.email }}</a>
     </h3>
   </div>
 </div>
+
+<div class="cases">
+  <div class="wrapper">
+    <h4>Casos de Uso</h4>
+    <ul>
+      {% for cases in site.cases %}
+      <li>
+      <a href="{{ cases.link }}" rel="nofollow">
+        <span>{{ cases.name }}</span>
+      </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
 
 <a class="button request" href="/request">Formulário de Requisição de Acesso a API</a>
 
